@@ -14,7 +14,10 @@
     --cor-letra-clara: #1900ff;
 }
 
-
+span {
+    color: gray;
+    font-size: 0.8rem;
+}
 
 
 
@@ -322,9 +325,9 @@
     border-radius: 10px;
 }
 
-.img-item-container-conteudo {
-    /* Caso Precise mexer nas medidas de tamnho da img */
-}
+/* .img-item-container-conteudo {
+    Caso Precise mexer nas medidas de tamnho da img 
+} */
 
 .txt-obj {
     display: flex;
@@ -364,3 +367,43 @@
 .azul {
     color: #003DA7;
 }
+
+.img-henrique-lindo {
+    margin-top: -2px;
+    margin-bottom: 2px;
+    width: 1.5vw;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.height-size {
+    height: 5vh;
+    gap: 1%;
+}
+
+.container-large-main {
+    margin: 1%;
+}
+
+#ul-pedidos {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.li-pedido {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.img-status {
+    margin-left: 6%;
+    width: 55vw;
+    height: 4vh;
+} 
