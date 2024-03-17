@@ -19,6 +19,9 @@ span {
     font-size: 0.8rem;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 
@@ -168,11 +171,13 @@ span {
 .header-small-box {
     margin: 2%;
     display: flex;
+    align-items: center;
 }
 
 .header-large-box {
     margin: 2%;
     display: flex;
+    align-items: center;
 }
 
 .box-text-header-large {
@@ -315,19 +320,30 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .item-container-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: white;
     padding: 3%;
     height: 20vh;
+    width: 7.5vw;
     border-radius: 10px;
 }
 
-/* .img-item-container-conteudo {
-    Caso Precise mexer nas medidas de tamnho da img 
-} */
+.seta-compras {
+    color: var(--cor-letra-clara);
+    font-size: 2rem;
+}
+
+.img-item-container-conteudo {
+    height: 9vh;
+    width: 5vw; 
+}
 
 .txt-obj {
     display: flex;
@@ -346,6 +362,13 @@ span {
     margin-bottom: 15%;
 }
 
+#img-alinha-2 {
+    margin-bottom: 13%;
+}
+
+.margin-top-alinhada {
+    margin-top: -1.5%;
+}
 
 .box-bolinhas {
     display: flex;
