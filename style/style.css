@@ -347,7 +347,7 @@ a {
     color: black;
 }
 
-.sectiongrandona {
+.section-lado-direito {
     background-color: whitesmoke;
     width: 1990px;
     height: 480px;
@@ -368,13 +368,13 @@ a {
     opacity: 50%;
 }
 
-.sectionOverview {
+.section-overview {
     height: 40px;
     width: 1990px;
     margin-top: 25px;
 }
 
-.headerOverview {
+.header-overview {
     display: flex;
     gap: 30px;
 }
@@ -552,10 +552,29 @@ a {
     text-align: start;
 }
 
+#conteudo-final {
+    height: 10vh;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px #003DA7;
+}
 
+#header-component {
+    display: flex;
+    align-items: center;
+}
 
+#text-header-component {
+    margin-right: 70%;
+    font-size: 2rem;
+    font-weight: 800;
+    text-wrap: nowrap;
+}
 
-
+#btn-final-flags {
+    padding: 1%;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
 
 
 
