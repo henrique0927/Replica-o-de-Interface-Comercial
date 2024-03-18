@@ -55,58 +55,58 @@ a {
     margin-top: 3px;
 }
 
-#button1 {
+#button-1 {
     height: 30px;
     width: 75px;
     font-size: 100%;
 }
 
-#button2 {
+#button-2 {
     margin-left: 2px;
     height: 30px;
     width: 90px;
     font-size: 100%;
 }
 
-#button3 {
+#button-3 {
     height: 30px;
     width: 70px;
     font-size: 100%;
 }
 
-#button4 {
+#button-4 {
     margin-left: 2px;
     height: 30px;
     width: 125px;
     font-size: 100%;
 }
 
-#button5 {
+#button-5 {
     height: 30px;
     width: 103px;
     font-size: 100%;
 }
 
-#button6 {
+#button-6 {
     margin-left: 2px;
     height: 30px;
     width: 37px;
     font-size: 100%;
 }
 
-#button7 {
+#button-7 {
     height: 30px;
     width: 95px;
     font-size: 100%;
 }
 
-#button8 {
+#button-8 {
     height: 30px;
     width: 95px;
     font-size: 100%;
 }
 
-#button9 {
+#button-9 {
     margin-left: 2px;
     height: 30px;
     width: 80px;
@@ -120,7 +120,7 @@ a {
     font-size: 100%;
 }
 
-#button10 {
+#button-10 {
     margin-left: 2px;
     height: 30px;
     width: 160px;
@@ -210,7 +210,7 @@ a {
     border-right: 1px solid darkslategrey;
 }
 
-#buttons1 {
+#buttons-1 {
     margin-left: 10px;
     margin-top: 3px;
     font-size: 100%;
@@ -218,30 +218,21 @@ a {
     height: 29px;
 }
 
-#buttons2 {
+#buttons-2 {
     margin-top: 3px;
     font-size: 100%;
     width: 35px;
     height: 29px;
 }
 
-#buttons3 {
+#buttons-3 {
     margin-top: 3px;
     font-size: 100%;
     width: 35px;
     height: 29px;
 }
 
-#hr1 {
-    margin-top: 4.3px;
-    height: 25px;
-    margin-left: 5px;
-    width: 1.5px;
-    background-color: grey;
-    opacity: 80%;
-}
-
-#buttons4 {
+#buttons-4 {
     margin-left: 5px;
     margin-top: 3px;
     font-size: 100%;
@@ -249,14 +240,14 @@ a {
     height: 29px;
 }
 
-#buttons5 {
+#buttons-5 {
     margin-top: 3px;
     font-size: 100%;
     width: 60px;
     height: 29px;
 }
 
-#buttons6 {
+#buttons-6 {
     margin-left: 36px;
     margin-top: 3px;
     font-size: 100%;
@@ -279,6 +270,15 @@ a {
     border-bottom: 1px solid darkslategrey;
     border-top: 1px solid darkslategrey;
     opacity: 30%;
+}
+
+#hr1 {
+    margin-top: 4.3px;
+    height: 25px;
+    margin-left: 5px;
+    width: 1.5px;
+    background-color: grey;
+    opacity: 80%;
 }
 
 .th {
